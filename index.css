@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(222, 220, 220);
+}
+
+h1{
+text-align: center;
+font-family: 'Prata', serif;
+color:red;
+font-size: 80px;
+background-color:rgb(211, 207, 207);
+}
+
+.header-link{
+display: flex;
+justify-content:right;
+color:black ;
+margin:20px;
+padding:20px;
+}
+
+.header-thing{
+    display: flex;
+    justify-content:right;
+    color:black ;
+    margin:23px;
+    padding:20px;
+}
+
+		/* Navigation bar styling */
+		.menu-list {
+			max-width: 300px;
+			/* margin: auto; */
+			height: 50px;
+			color: rgb(211, 207, 207);
+			margin:45px;
+			border-radius: 10px;
+			font-family: 'Prata', serif;
+
+
+		}
+		
+		/* Logo, navigation menu styling */
+		.links {
+			overflow: hidden;
+			background-color: #111;
+			position: relative;
+		}
+		
+		/* styling navigation menu */
+		.links #menus {
+			display: none;
+		}
+		
+		/* Link specific styling */
+		.links a {
+			text-decoration: none;
+			color: white;
+			padding: 14px 16px;
+			font-size: 16px;
+			display: block;
+            text-align: left;
+		}
+		
+		/* Navigation toggle menu styling */
+		.links a.icon {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		
+		/* hover effect on navigation logo and menu */
+		.links a:hover {
+			background-color:rgb(211, 207, 207);
+			color:red;
+			font-style: bold;
+		}
+
+div{
+	text-align: center;
+}
+
+
+p{
+	align-items: center;
+	font-size: 56px;
+	color: red;
+	font-style: bold;
+	font-family: prata;
+}
+
+div1{
+	/* background-color:#c88989; */
+	width:60px;
+	height:20px;
+	
+}
+
+.call{
+	color: red;
+	
+}
+.footer{
+	color:red;
+}
